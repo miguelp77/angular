@@ -36,6 +36,13 @@
 		}
 	];
 
+	app.directive('productTitle', function(){
+		return{
+			retrict: 'E',
+			templateUrl: 'product-title.html'
+		};
+	});
+
 
 
 })();

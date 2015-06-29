@@ -9,9 +9,8 @@
 
 		<ul class="list-group">
 			<li class="list-group-item" ng-repeat="product in store.products">
-				<h3 ng-include="'product-title.html'">
-
-				</h3>
+		<!--		<h3 ng-include="'product-title.html'"></h3> -->
+			<product-title></product-title>
 			</li>
 		</ul>
 		<section ng-controller="PanelController as panel">
