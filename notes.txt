@@ -1,0 +1,11 @@
+A Directive is a marker on a HTML tag that tells Angular to run or reference some JS code.
+	<html ng-app="store">
+	ng-show
+	ng-hide
+A Module is where we write pieces of our Angular application and we define  dependencies for our app.
+A Expression allow us to insert dynamic values into our HTML 
+	I am {{4 + 6}} 
+
+A Controller is where we define our app's behavior by defining functions and values
+	ng-controller
+
